@@ -1,16 +1,17 @@
 :root {
   --spacing: 1.5rem;
-  --link-dark-color: rgb(0, 83, 134);
-  --link-light-color: rgb(156, 217, 255);
-  --clr-white: rgb(245, 245, 255);
-  --clr-black: rgb(0, 0, 30);
-  --clr-light-gray: rgb(230, 230, 245);
-  --clr-dark-shadow-5: rgba(0, 0, 10, 5%);
-  --clr-dark-shadow-10: rgba(0, 0, 10, 10%);
-  --clr-dark-shadow-20: rgba(0, 0, 10, 20%);
-  --clr-light-shadow-5: rgba(200, 200, 255, 5%);
-  --clr-light-shadow-10: rgba(200, 200, 255, 10%);
-  --clr-light-shadow-20: rgba(200, 200, 255, 20%);
+  --link-dark-color: rgb(230, 115, 35); /* Laranja Escuro */
+  --link-light-color: rgb(255, 179, 71); /* Laranja Claro */
+  --clr-white: rgb(245, 245, 255); /* Mantido */
+  --clr-black: rgb(50, 50, 50); /* Cinza Muito Escuro */
+  --clr-light-gray: rgb(200, 200, 200); /* Cinza Claro */
+  --clr-dark-shadow-5: rgba(50, 50, 50, 0.05);
+  --clr-dark-shadow-10: rgba(50, 50, 50, 0.1);
+  --clr-dark-shadow-20: rgba(50, 50, 50, 0.2);
+  --clr-light-shadow-5: rgba(255, 179, 71, 0.05);
+  --clr-light-shadow-10: rgba(255, 179, 71, 0.1);
+  --clr-light-shadow-20: rgba(255, 179, 71, 0.2);
+  /* Restante do CSS mantido igual */
   --main-page-width: 120rem;
   --table-min-width: 60rem;
   --biggest-font-size: 5rem;
@@ -239,6 +240,11 @@ svg {
   border: 1px solid rgba(255, 255, 0, 90%);
 }
 
+.message.info {
+  background: rgba(0, 0, 255, 0.3);
+  border: 1px solid rgba(0, 0, 255, 0.3);
+}
+
 .form-wrapper {
   max-width: 60rem;
   margin: var(--spacing) auto;
@@ -331,5 +337,5 @@ svg {
   }
   
   .btn-delete {
-  background: tomato;
+  background: red;
   }
